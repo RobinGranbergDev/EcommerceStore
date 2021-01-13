@@ -1,0 +1,142 @@
+/* CSS Document */
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700;800&display=swap");
+
+.media img {
+  max-width: 120px;
+  height: auto;
+}
+
+.card-body {
+  text-align: center;
+}
+
+.blog .media img {
+  max-width: 200px;
+  height: auto;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  max-height: 100vh;
+  background: lightblue;
+  background: radial-gradient(white 30%, lightblue 70%);
+  object-fit: cover;
+}
+
+#cart_count {
+  text-align: center;
+  padding: 0 0.9rem 0.1rem 0.9rem;
+  border-radius: 3rem;
+}
+
+.shopping-cart {
+  padding: 3% 0;
+}
+
+.cart-items + .cart-items {
+  padding: 2% 0;
+}
+
+.price-details h6 {
+  padding: 3% 2%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: 0.6s;
+  padding: 2em 4em;
+  z-index: 20;
+}
+
+header .logo {
+  position: relative;
+  font-weight: 700;
+  color: #fff;
+  text-decoration: none;
+  font-size: 2em;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  transition: 0.6;
+}
+
+header ul {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+}
+
+header ul li {
+  position: relative;
+  list-style: none;
+  font-size: 20px;
+}
+
+header ul li a {
+  position: relative;
+  margin: 0 15px;
+  text-decoration: none;
+  color: #fff;
+  letter-spacing: 2px;
+  transition: 0.6s;
+}
+
+header.sticky {
+  padding: 0.5em 4em;
+  background: #fff;
+}
+
+header.sticky .logo,
+header.sticky ul li a {
+  color: #000;
+}
+
+header .listlink {
+  text-decoration: none;
+}
+
+header .listlink:hover {
+  color: skyblue;
+}
+
+footer {
+  background-color: #313131;
+  color: white;
+}
+
+footer ul {
+  align-items: center;
+}
+
+footer ul li {
+  text-align: center;
+}
+
+footer h3 {
+  text-align: center;
+}
+
+li {
+  list-style: none;
+}
+
+#homepagefooter {
+  background-color: #313131;
+  color: white;
+}

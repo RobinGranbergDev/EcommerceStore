@@ -1,0 +1,130 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700;800&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(../img/dg1.jpg);
+  background-size: cover;
+}
+
+form {
+  position: relative;
+  z-index: 1;
+  max-width: 360px;
+  margin: 0 auto;
+  padding: 45px;
+  text-align: center;
+  margin-top: 100px;
+}
+
+form input {
+  font-family: sans-serif;
+  background: #f2f2f2;
+  border: 0;
+  margin: 0 0 15px;
+  padding: 15px;
+  font-size: 14px;
+  width: 100%;
+}
+
+form button {
+  font-family: sans-serif;
+  text-transform: uppercase;
+  outline: 0;
+  background: #4caf50;
+  width: 100%;
+  border: 0;
+  padding: 15px;
+  color: #ffffff;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+form button:hover,
+form button:active {
+  background: #43a057;
+}
+
+#signup {
+  color: white;
+  margin: 0 auto;
+  width: 100%;
+  color: white;
+  font-size: 30px;
+  font-weight: 900;
+  text-decoration: none;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: 0.6s;
+  padding: 2em 4em;
+  z-index: 20;
+}
+
+header .logo {
+  position: relative;
+  font-weight: 700;
+  color: #fff;
+  text-decoration: none;
+  font-size: 2em;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  transition: 0.6;
+}
+
+header ul {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+}
+
+header ul li {
+  position: relative;
+  list-style: none;
+  font-size: 20px;
+}
+
+header ul li a {
+  position: relative;
+  margin: 0 15px;
+  text-decoration: none;
+  color: #fff;
+  letter-spacing: 2px;
+  transition: 0.6s;
+}
+
+header.sticky {
+  padding: 0.5em 4em;
+  background: #fff;
+}
+
+header.sticky .logo,
+header.sticky ul li a {
+  color: #000;
+}
+
+header .listlink {
+  text-decoration: none;
+}
+
+header .listlink:hover {
+  color: skyblue;
+}
+
+.form-container {
+  text-align: center;
+}
